@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Advanced AI Techniques for ILD Detection</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav class="navbar">
+    <div class="logo">Wissal Hlioui</div>
+    <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="index.html#projects">Projects</a>
+    </div>
+</nav>
+
+<section class=" fibrosis-page">
+
+    <h1 class="project-title">
+        Advanced AI Techniques for Interstitial Lung Disease Detection
+    </h1>
+
+    <!-- Section 1 -->
+    <div class="project-section">
+        <div class="project-text">
+            <h2>Project Overview</h2>
+            <p>
+                Pulmonary diseases, including asthma, chronic bronchitis, and pulmonary fibrosis, are becoming increasingly prevalent worldwide.
+                These conditions are often aggravated by environmental pollution and unhealthy lifestyle factors, making early and accurate diagnosis essential for effective treatment and improved patient outcomes.
+                Recent advances in Artificial Intelligence (AI) have opened new possibilities for enhancing medical diagnostic processes.
+                 In this context, this project focuses on multi-class classification of pulmonary fibrosis using CT scan images and  Transformer-based deep learning models ().
+                
+            </p>
+        </div>
+
+        <div class="project-image overview-image">
+            <img src="images/overview.jpg" alt="Overview Image">
+        </div>
+    </div>
+
+    <!-- Section 2 -->
+    <div class="project-section">
+        <div class="project-text">
+            <h2>Proposed AI Approach</h2>
+            <ul class="ai-list">
+                 <li>
+                    <strong>CNN Baseline Model:</strong>
+                    Implemented a Convolutional Neural Network (CNN) to extract spatial features
+                    from CT scan images and evaluate initial classification performance.
+                </li>
+
+                <li>
+                    <strong>VGG16 Architecture:</strong>
+                    Applied the VGG16 deep learning model on CT scan data to enhance feature
+                    extraction and improve classification accuracy.
+                </li>
+
+                <li>
+                    <strong>Vision Transformers (ViT):</strong>
+                    Integrated Vision Transformers to capture global contextual relationships
+                     within medical images and detect complex fibrosis patterns.
+                </li>
+
+                <li>
+                   <strong>Performance Comparison:</strong>
+                   Compared CNN, VGG16, and ViT models using different metrics
+                  to determine the most effective architecture.
+                </li>
+            </ul>
+        </div>
+
+    </div>
+
+    <!-- Section 3 -->
+    <div class="project-section">
+        <div class="project-text">
+           <h2>Data & Methodology</h2>
+
+           <div class="project-info-grid">
+
+                <div class="info-block">
+                    <h3>CT Scan Database</h3>
+                    <ul class="data-list">
+                        <li><strong>Total Images:</strong> 6122 CT scan images</li>
+                        <li><strong>Training Set:</strong> 4522 images</li>
+                        <li><strong>Test Set:</strong> 1600 images</li>
+                        <li><strong>Classes:</strong> OP, UIP, PHS, PINS</li>
+                        <li><strong>Segmentation:</strong> U-Net applied before classification</li>
+                    </ul>
+            </div>
+
+            <div class="info-block">
+                <h3>Technologies & Tools</h3>
+                   <ul class="data-list">
+                      <li>Python | Google Colab</li>
+                       <li>TensorFlow & Keras</li>
+                      <li>PyTorch & Torchvision</li>
+                      <li>Matplotlib</li>
+                    </ul>
+            </div>
+
+           <div class="info-block">
+                <h3>Evaluation Metrics</h3>
+                    <ul class="data-list">
+                      <li>Accuracy</li>
+                       <li>F1-Score</li>
+                      <li>Recall</li>
+                      <li>Confusion Matrix</li>
+                    </ul>
+            </div>
+
+    </div>
+    <br><br>
+    <a href="index.html#projects" class="btn-back">← Back to Projects</a>
+
+</section>
+<script src="main.js"></script>
+</body>
+</html>

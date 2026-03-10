@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Automatic TCP Calibration System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav class="navbar">
+    <div class="logo">Wissal Hlioui</div>
+    <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="index.html#projects">Projects</a>
+    </div>
+</nav>
+
+<section class="tcp-page">
+    
+    <h1>Automatic TCP Calibration System</h1>
+
+    <!-- Section 1: Problem Statement & Objectives -->
+    <div class="project-section">
+        <div class="project-text">
+            <h2>Problem Statement & Objectives</h2>
+            <p>
+                In industrial applications involving 6-axis robots, accurate Tool Center Point (TCP) calibration is essential for high-precision tasks such as assembly, welding, and machining.
+                 Traditional TCP methods are often time-consuming, dependent on operator skills, and require manual recalibration, leading to downtime and reduced productivity.
+                 This project proposes an automated, accurate, and efficient solution to compute the TCP while minimizing human intervention and improving adaptability to different tool configurations.
+            </p>
+        </div>
+        
+    </div>
+
+    <!-- Section 2: Existing Solutions  -->
+    <div class="project-section">
+        <div class="project-text">
+            <h2>Existing Solutions</h2>
+            <p>
+                TCP calibration is a fundamental step in industrial robotics to ensure accurate tool positioning during manipulation, machining, and assembly tasks.
+                 Traditionally, the TCP is determined manually or using classical geometric methods based on repeated measurements.
+                  Common industrial approaches include the 4-point, 6-point, and 20-point methods, which rely on different numbers of pose measurements to compute the TCP.
+                   Although these techniques improve accuracy, they can be time-consuming and dependent on operator expertise.
+            </p>
+        </div>
+        <div class="project-image">
+            <img src="images/image-robot.jpg.png" alt="Robot Used">
+            <p class="image-caption">Collaborative Robot AUBO i10</p>
+        </div>
+        
+    </div>
+
+    <!-- Section 3: Measurement System -->
+    <div class="project-section">
+        <div class="project-text">
+            <h2>Measurement System</h2>
+            <p>
+                The automatic TCP calibration system is based on a laser displacement sensor designed for accurate and reliable tool detection. The sensor integrates two laser emitters and two BPW77NA phototransistors arranged in a crossed-beam configuration. This setup enhances detection robustness by minimizing the effects of incidence angle and surface reflectivity, enabling accurate recording of the robot's coordinates during tool motion.
+            </p>
+        </div>
+    
+    </div>
+
+    
+    <a href="index.html#projects" class="btn-back">← Back to Projects</a>
+
+</section>
+
+<script>
+window.addEventListener("scroll", function () {
+    const navbar = document.querySelector(".navbar");
+    navbar.classList.toggle("scrolled", window.scrollY > 50);
+});
+</script>
+<script src="main.js"></script>
+
+</body>
+</html>
