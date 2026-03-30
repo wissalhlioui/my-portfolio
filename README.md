@@ -21,3 +21,5 @@ https://wissalhlioui.github.io/my-portfolio/
 ##  Author
 **Wissal Hlioui**  
 Electronics Engineer – Embedded Software & Intelligent Systems
+
+AI Enthusiast 
